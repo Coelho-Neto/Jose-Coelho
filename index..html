@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Coêlho | Portfólio Front-End</title>
+  <meta name="description" content="Portfólio de José Coêlho, desenvolvedor front-end. Criação de sites modernos, responsivos e profissionais para empresas e negócios.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="particulas"></div>
+
+  <nav class="navegacao">
+    <div class="container navegacao-conteudo">
+      <a href="#inicio" class="logo">José Coêlho</a>
+
+      <ul class="menu" id="menu">
+        <li><a href="#inicio" class="menu-link">Início</a></li>
+        <li><a href="#sobre" class="menu-link">Sobre</a></li>
+        <li><a href="#projetos" class="menu-link">Projetos</a></li>
+        <li><a href="#contatos" class="menu-link">Contato</a></li>
+      </ul>
+
+      <button class="botao-menu" id="botaoMenu" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="cabecalho" id="inicio">
+    <div class="container cabecalho-conteudo">
+      <img src="img/EU.jpeg" alt="Foto de José Coêlho" class="foto-perfil">
+
+      <h1>José Coêlho</h1>
+      <p class="subtitulo">Desenvolvedor Front-End</p>
+
+      <p class="descricao-cabecalho">
+        Crio sites modernos, rápidos e responsivos para empresas, profissionais e negócios que querem transmitir mais credibilidade e vender mais pela internet.
+      </p>
+
+      <div class="cabecalho-botoes">
+        <a href="#projetos" class="botao botao-primario">Ver projetos</a>
+        <a href="https://wa.me/5586998079212?text=Olá,%20vim%20pelo%20seu%20portfólio%20e%20quero%20fazer%20um%20orçamento." target="_blank" class="botao botao-secundario">Chamar no WhatsApp</a>
+      </div>
+    </div>
+  </main>
+
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2 class="sobre-titulo">Sobre Mim</h2>
+
+      <div class="sobre-caixa">
+        <p class="sobre-paragrafo">
+          Olá! Sou um desenvolvedor front-end apaixonado por criar experiências web únicas e memoráveis.
+          Combino código limpo com design moderno para desenvolver sites que não só funcionam perfeitamente,
+          mas também impressionam visualmente. Meu foco é criar páginas que transmitam profissionalismo,
+          gerem confiança e valorizem a presença digital de cada cliente.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos" class="projetos">
+    <div class="container">
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+
+      <div class="projetos-caixa">
+        <article class="projetos-card">
+          <img src="img/CONNECT ACESSORIA.jpeg" alt="Projeto página de tráfego" class="projeto-imagens">
+          <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Página de Tráfego</h3>
+            <p class="paragrafo-projetos">
+              Página estratégica para apresentar serviços de tráfego pago com visual moderno, foco em autoridade e captação de clientes.
+            </p>
+          </div>
+        </article>
+
+        <article class="projetos-card">
+          <img src="img/COELHO.jpeg" alt="Projeto site de contabilidade" class="projeto-imagens">
+          <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Site de Contabilidade</h3>
+            <p class="paragrafo-projetos">
+              Site profissional para escritório contábil, com foco em organização, clareza, confiança e adaptação total para celular.
+            </p>
+          </div>
+        </article>
+
+        <article class="projetos-card">
+          <img src="img/LOJA.jpeg" alt="Projeto loja virtual" class="projeto-imagens">
+          <div class="caixa-texto-projeto">
+            <h3 class="info-projetos">Loja de Vendas</h3>
+            <p class="paragrafo-projetos">
+              Loja virtual com identidade moderna, animações suaves e estrutura pensada para destacar produtos e aumentar conversão.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contatos" class="contatos">
+    <div class="container">
+      <h2 class="contatos-titulo">Entre em Contato</h2>
+
+      <form class="formulario-contato" id="formulario">
+        <div class="grupo-form">
+          <input type="text" placeholder="Seu nome" class="campo-form" id="nome" required>
+        </div>
+
+        <div class="grupo-form">
+          <textarea placeholder="Digite sua mensagem" class="campo-form" id="mensagem" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="botao-form">Enviar no WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>© 2026 José Coêlho - Desenvolvedor Front-End</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
